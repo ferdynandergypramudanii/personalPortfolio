@@ -17,11 +17,32 @@
                 </div>
 
                 <div class="flex items-center justify-center px-4">
-                    <button id="hamburger" name="hamburger" type="button" class="block absolute right-4">
+                    <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
                         <span class="hamburger-line origin-top-left transition duration-300 ease-in-out"></span>
                         <span class="hamburger-line transition duration-300 ease-in-out"></span>
                         <span class="hamburger-line origin-bottom-left transition duration-300 ease-in-out"></span>
                     </button>
+
+                    <nav id="nav-menu"
+                        class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+                        <ul class="block lg:flex">
+                            <li class="group"><a class="text-base text-dark py-2 mx-8 flex  group-hover:text-primary"
+                                    href="#home">Beranda</a>
+                            </li>
+
+                            <li class="group"><a class="text-base text-dark py-2 mx-8 flex  group-hover:text-primary"
+                                    href="#about">Tentang Saya</a>
+                            </li>
+
+                            <li class="group"><a class="text-base text-dark py-2 mx-8 flex  group-hover:text-primary"
+                                    href="#experience">Pengalaman</a>
+                            </li>
+
+                            <li class="group"><a class="text-base text-dark py-2 mx-8 flex  group-hover:text-primary"
+                                    href="#blog">Blog</a>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
         </div>
@@ -29,7 +50,7 @@
 
 
     <!-- Hero Section Start -->
-    <section id="home" class="pt-36">
+    <section id="home" class="pt-16">
         <div class="container">
             <div class="flex flex-wrap">
                 <div class="w-full self-center px-4 lg:w-1/2">
