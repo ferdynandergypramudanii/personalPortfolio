@@ -1,4 +1,4 @@
-#Personal Portfolio
+# Personal Portfolio
 
 Proyek tersebut untuk menshowcase keterampilan, proyek, dan pengalaman saya sebagai pengembang web. Situs web ini dibuat menggunakan HTML, Tailwind CSS, JavaScript, dan Swiperjs.
 
